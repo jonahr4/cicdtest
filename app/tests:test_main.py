@@ -16,3 +16,6 @@ def test_flask_hello():
 
 def test_fail():
   assert add(2, 2) == 5
+
+def test_fail_again():
+  assert add(2, 4) == 10
